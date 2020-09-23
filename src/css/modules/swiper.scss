@@ -1,4 +1,23 @@
-.swiper-container {
-    width: 600px;
-    height: 300px;
+.carousel {
+  background: #EEE;
+  margin-top: 200px;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: rgb(0, 0, 0);
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
 }
