@@ -4,6 +4,7 @@
 }
 
 .carousel-cell {
+  opacity: 0.1;
   width: 66%;
   height: 200px;
   margin-right: 10px;
@@ -20,4 +21,8 @@
   line-height: 200px;
   font-size: 80px;
   color: white;
+}
+
+.is-selected {
+  opacity: 1;
 }
