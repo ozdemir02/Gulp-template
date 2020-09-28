@@ -1,16 +1,17 @@
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: var(--nav_background_color);
   }
   
   .topnav a {
+    font-family: var(--nav_font_family);
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: var(--nav_font_color);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: var(--nav_font_size);
   }
   
   .topnav a:hover {
@@ -19,7 +20,7 @@
   }
   
   .topnav a.active {
-    color: white;
+    color: var(--nav_fontActive_size);
   }
   
   .topnav .icon {
