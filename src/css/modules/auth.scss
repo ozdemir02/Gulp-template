@@ -3,24 +3,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .auth__validation {
     font-family: var(--validation_fontFamily);
-}
-
-.auth__form {
-    
+    outline: none;
 }
 
 .form__user {
-
+    font-family: var(--validation_fontFamily);
+    outline: none;
 }
 
 .form__pass {
-
+    font-family: var(--validation_fontFamily);
+    outline: none;
 }
 
 .form__button {
-
+    font-family: var(--validation_fontFamily);
+    outline: none;
 }
